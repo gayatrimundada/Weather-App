@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(3, 3, 3);
+            text-align: center;
+            color: white;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        input,button{
+            padding: 8px;
+            font-size: 1em;
+            margin: 5px;
+            border-radius: 20px;
+
+        }
+        #result{
+            margin-top: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <form id="weatherForm">
+    <h1>Simple Weather app</h1>
+    <input type="text" placeholder="Enter city" id="cityName">
+    <button type="submit">Get weather</button>
+
+    
+    </form>
+    <div id="result"></div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
